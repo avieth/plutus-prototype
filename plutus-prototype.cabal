@@ -57,7 +57,7 @@ library
                        Utils.Unifier,
                        Paths_plutus_prototype
   -- other-extensions:    
-  build-depends:       base >=4.8 && <4.10,
+  build-depends:       base >=4.8 && < 5,
                        bifunctors,
                        binary,
                        bytestring,
